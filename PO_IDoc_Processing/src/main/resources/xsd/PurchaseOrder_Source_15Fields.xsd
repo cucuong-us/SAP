@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+
+    <xs:element name="PurchaseOrders">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="Item" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="Vendor" type="xs:string"/>
+                            <xs:element name="Material" type="xs:string"/>
+                            <xs:element name="Plant" type="xs:string"/>
+                            <xs:element name="Quantity" type="xs:string"/>
+                            <xs:element name="Price" type="xs:string"/>
+
+                            <xs:element name="CompanyCode" type="xs:string"/>
+                            <xs:element name="DocumentType" type="xs:string"/>
+
+                            <xs:element
+                                name="PurchasingOrganization"
+                                type="xs:string"/>
+
+                            <xs:element
+                                name="PurchasingGroup"
+                                type="xs:string"/>
+
+                            <xs:element name="Currency" type="xs:string"/>
+                            <xs:element name="DocumentDate" type="xs:string"/>
+                            <xs:element name="POItem" type="xs:string"/>
+
+                            <xs:element
+                                name="StorageLocation"
+                                type="xs:string"/>
+
+                            <xs:element name="POUnit" type="xs:string"/>
+                            <xs:element name="PriceUnit" type="xs:string"/>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

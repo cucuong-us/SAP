@@ -16,5 +16,14 @@ def Message WrapGatheredResults(Message message) {
 
     message.setBody(wrappedBody)
 
+
+
+    
     return message
 }
+
+
+
+
+
+

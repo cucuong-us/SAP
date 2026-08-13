@@ -1,0 +1,15 @@
+#
+#Thu Aug 13 09:33:19 UTC 2026
+MaterialPlant_API_Address=http\://sh4demo\:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant
+POUnit_API_Address=http\://sh4demo\:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductUnitsOfMeasure
+REC_IDoc_Processing=/po/idoc/processing
+RFC_EDIDS_CreateNewConnection=0
+RFC_EDIDS_Destination=S4_RFC_EDIDS
+RFC_EDIDS_SendConfirmTransaction=0
+S4_API_CREDENTIAL=S4_API_CREDENTIAL
+StorageLocation_API_Address=http\://sh4demo\:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductStorageLocation
+SupplierCompany_API_Address=http\://sh4demo\:44300/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_SupplierCompany
+SupplierPurchasingOrg_API_Address=http\://sh4demo\:44300/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_SupplierPurchasingOrg
+SupplierPurchasingOrg_API_Address_v2=
+SupplyPlanning_API_Address=http\://sh4demo\:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductSupplyPlanning
+Valuation_API_Address=http\://sh4demo\:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductValuation
